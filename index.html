@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet">
+    <title>Rubik's Cube</title>
+</head>
+<body>
+    <header >
+        <nav class="banner">
+            <ul>
+                <li><a class="pagelink" href="#">Home</a></li>
+                <li><a class="pagelink"  href="#introduction">About</a></li>
+                <li><a class="pagelink" href="#steps">Steps</a></li>
+                <li><a class="pagelink" href="#footer">Order/Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1 class="title">The Rubik's Cube</h1>
+    </div>
+    <!-- About the rubik's 
+        <cube-->
+
+    <div id="introduction">
+        <div class="about">
+            <h1>Introduction</h1>
+            <p>The Rubik's Cube: a timeless icon of intellectual challenge and creative exploration. Originating in the 1970s, this deceptively simple yet endlessly complex puzzle has captured the imaginations of millions worldwide. With its colorful array of squares and intricate rotations, the Rubik's Cube serves as a captivating test of problem-solving prowess and spatial reasoning. Beyond its physical form lies a labyrinth of possibilities, inviting enthusiasts of all ages to embark on a journey of discovery and mastery. Whether pursued as a casual pastime or a serious pursuit, the Rubik's Cube stands as a symbol of human ingenuity and the relentless pursuit of mental agility. Join me as we delve into the fascinating world of this mesmerizing puzzle, where every twist and turn unveils new dimensions of thought and challenge.
+            </p>
+        </div>
+    </div>
+    <!--Solving the cube-->
+    <div id="steps">
+        <h2>How to Solve the Cube</h2>
+        <p>Learning to solve the Rubik's Cube is an exciting and rewarding journey that requires dedication, patience, and practice.</p>
+        <h3>What you need</h3>
+        <p>To embark on the journey of solving a Rubik's Cube, you'll need to start with the foundational understanding of the puzzle's intricate structure, including its six faces adorned with colorful squares, each capable of rotation along three axes, creating a complex network of interlocking pieces. You will need the following:</p>
+        <ol>
+            <li><span class="items">Rubik's Cube</span>: The puzzle itself is essential. You can use a standard 3x3 Rubik's Cube or variations like 2x2, 4x4, or even larger cubes.</li>
+            <li><span class="items">Understanding of Notation</span>: Learn the standard notation used to describe the cube's movements (like F for Front, B for Back, R for Right, etc.).</li>
+            <li><span class="items">Algorithms</span>: Memorize and practice algorithms (sequences of moves) that are used to manipulate specific pieces without disturbing the rest of the cube. Algorithms are essential for solving certain stages of the cube efficiently.</li>
+            <li><span class="items">Practice Space</span>: Find a quiet and comfortable space where you can focus and practice solving the Rubik's Cube without distractions.</li>
+            <li><span class="items">Time and Dedication</span>: Solving the Rubik's Cube takes time and dedication. Consistent practice is key to improving your solving skills and algorithm recognition.</li>
+        </ol>
+        <h3>Solving the Cube</h3>
+        <p>Solving the Rubik' Cube is a fascinating endeavor that involves mastering a series of strategic moves and algorithms.
+        <br>The process typically begins by focusing on one face of the cube and arranging its colored squares into a cross shape, with each edge piece matching the center color of its respective face. This is called solving the cross. <br><img id="cross" src="./resources/cross.png"/>
+        <br>Next, attention turns to completing the first layer by correctly positioning the corner pieces to match the adjacent edge pieces. Moving on to the second layer, the goal is to pair up the edge pieces with the corresponding corner pieces from the first layer, effectively solving the middle layer of the cube. These steps combined create what is called <strong>F2L</strong> <em>(first two layers)</em> 
+        <br><img id="cross" src="./resources/f2l.png"/>
+        
+        <br>With the bottom two layers in place, the challenge shifts to orienting the edges of the top layer to form a cross and permuting the corners to complete the entire top layer. This final step often involves executing a sequence of algorithms to rearrange the pieces into their correct positions, ultimately bringing the Rubik's Cube back to its solved state. <br> Learning different methods and algorithms after you have learned to solve the cube is great practice. Methods such as <a href="https://en.wikipedia.org/wiki/CFOP_method" target="_blank">CFOP</a> and <a href="https://ruwix.com/the-rubiks-cube/different-rubiks-cube-solving-methods/roux-method/"target="_blank">Roux</a>
+        <p>Throughout this process, patience, practice, and an understanding of the cube's movements are key to successfully solving the puzzle.</p>
+    </div>
+    <footer id="footer">
+        <p>Order your first Rubik's Cube today!<button id="button"><a href="https://www.amazon.co.uk/ROXENDA-Qihang-Super-Durable-Sticker-Colors/dp/B089VWZK9B/ref=asc_df_B089VWZK9B/?tag=googshopuk-21&linkCode=df0&hvadid=606802404857&hvpos=&hvnetw=g&hvrand=10875554029327638496&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9045997&hvtargid=pla-1161290955351&mcid=a8e929383510361fa0da313a4b2b887e&th=1" target="_blank">Click Here</a></button></p>
+        <h3>Lessons</h3>
+        <p>For adults <span class="price">£8.99</span></p>
+        <p>For Children(under 17)<span class="price">£5.99</span></p>
+        <button class="btn">Sign up now</button>
+        <span id="name">
+            By Liban Warsame
+        </span>
+    </footer>   
+</body>
+</html>
